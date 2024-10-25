@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Alata", sans-serif;
+}
+
+.card-title {
+    font-size: medium;
+}
+
+.card-text {
+    font-size: small;
+    font-weight: 500;
+}
+
+.price-tag {
+    color: green;
+    font-size: smaller;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-sec-one{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+    gap: 30px;
+}
+
+.footer-sec{
+    background-color:rgb(190, 190, 190);
+    color: black;
+    
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+
+.product-image{
+    height: 150px;
+    object-fit: contain;
+}
+.card-title{
+    height: 20px;
+    overflow: hidden;
+}
+.product-des{
+    height: 60px;
+    overflow: hidden;
+    font-weight: 100;
+    color: rgb(71, 71, 71);
+}
+.footer-image{
+    margin-bottom: 20px;
+}
+.product-des-det{
+    font-weight: 100;
+}
+.details-items{
+    align-items: center;
+    justify-content: center;
+}
